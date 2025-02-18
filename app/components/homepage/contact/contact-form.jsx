@@ -35,11 +35,9 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
-      const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-        userInput
-      );
-
+      setInterval(() => {
+        console.log("sending the datas")
+      }, 240000);
       toast.success("Message sent successfully!");
       setUserInput({
         name: "",

@@ -10,7 +10,7 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/surya-v28/',
   leetcode: 'https://leetcode.com/u/Surya_V_28/',
   portfolio: 'https://surya-v-28.github.io/profile/',
-  resume: 'https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing',
+  resume: 'https://github.com/Surya-V-28',
   facebook: 'https://www.linkedin.com/in/surya-v28/',
   credly: 'https://www.credly.com/users/surya-v--28',
   stackOverflow: '',

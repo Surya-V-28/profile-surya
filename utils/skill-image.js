@@ -81,7 +81,16 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
-
+import kafka from '../app/assets/svg/skills/kafka.svg'
+import springBoot from '../app/assets/svg/skills/springboot.svg'
+import nodeJS from '../app/assets/svg/skills/node.svg'
+import Prisma from '../app/assets/svg/skills/prisma.svg'
+import Sql from '../app/assets/svg/skills/sql.svg'
+import PostMan from '../app/assets/svg/skills/postman.svg'
+import Redux from '../app/assets/svg/skills/redux.svg'
+import ExpressJS from '../app/assets/svg/skills/express.svg'
+import Prometheus from '../app/assets/svg/skills/pprometheus.svg'
+import Mainframe from '../app/assets/svg/skills/Mainframe.png'
 
 
 export const skillsImage = (skill) => {
@@ -89,14 +98,34 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case 'gcp':
       return gcp;
+    case 'Mainframe':
+      return Mainframe;
+    case 'Prometheus':
+      return Prometheus;
+    case 'express js':
+      return ExpressJS;
+    case 'redux':
+      return Redux;
+    case 'postman':
+      return PostMan;
+    case 'prisma':
+      return Prisma;
+    case 'springboot':
+      return springBoot;
+    case 'kafka':
+      return kafka;
     case 'html':
       return html;
+    case 'sql':
+      return Sql;
     case 'photoshop':
       return photoshop;
     case 'docker':
       return docker;
     case 'illustrator':
       return illustrator;
+    case 'node js':
+      return nodeJS;
     case 'adobe xd':
       return adobeXd;
     case 'after effects':

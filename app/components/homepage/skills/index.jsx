@@ -1,6 +1,6 @@
 // @flow strict
 
-import { skillsData } from "@/utils/data/skills";
+import { skillsData,frontendSkills, backendSkills, otherSkills } from "@/utils/data/skills";
 import { skillsImage } from "@/utils/skill-image";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
@@ -59,9 +59,9 @@ function Skills() {
   return (
     <div id="skills" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
       <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-3 left-[42%] translate-x-1/2 filter blur-3xl opacity-20"></div>
-      {renderSkills(skillsData, "Frontend Skills", "left")}
-      {renderSkills(skillsData, "Backend Skills", "right")}
-      {renderSkills(skillsData, "Other Skills", "left")}
+      {renderSkills(frontendSkills, "Frontend Skills", "left")}
+      {renderSkills(backendSkills, "Backend Skills", "right")}
+      {renderSkills(otherSkills, "Other Skills", "left")}
     </div>
   );
 }

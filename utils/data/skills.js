@@ -2,7 +2,6 @@ export const skillsData = [
   'HTML',
   'CSS',
   'Javascript',
-  'Java',
   'Typescript',
   'React',
   'Next JS',
@@ -21,6 +20,62 @@ export const skillsData = [
   'Nginx',
   'Strapi'
 ]
+
+// Frontend Skills
+export const frontendSkills = [
+  // Languages
+  "HTML", 
+  "CSS", 
+  'Figma',
+  "Dart",
+  "JavaScript", 
+  'Bootstrap',
+  "TypeScript",
+  "react", 
+  "next js",
+  "Redux", 
+  "tailwind", 
+  "Firebase", 
+  "Flutter",
+  "Postman", 
+  'MaterialUI'
+];
+
+// Backend Skills
+export const backendSkills = [
+  // Languages
+  "Python", 
+  "Java", 
+  "Go", 
+  "sql", 
+  "C",
+  "Springboot", 
+  "node js", 
+  "Express js",
+  "Graphql",
+  "MySQL", 
+  "MongoDB", 
+  "PostgreSQL", 
+  "Prisma",
+  "Docker", 
+  "Kafka"
+];
+
+// Other Skills
+export const otherSkills = [
+  // Operating Systems
+  "linux", 
+  "Git",
+  "sklearn",
+  "Nginx",
+  "AWS",
+  "Pytorch",
+  "Selenium",
+  "GCP",
+  "kubernetes"
+];
+
+
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
@@ -107,4 +162,8 @@ export const skillsData = [
   Tensorflow
   Webex
   Wordpress
+  Grafana
+  Promedthus
+
+
 */
